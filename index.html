@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="module" src="assets/js/script.js"></script>
+    <script  type="module" src="assets/js/firebase.js"></script>
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <button id="btnContraste">Cambiar modo oscuro </button>
+    <button id="btnFuente">Cambiar tamanño de fuente </button>
+    <h1>Registrar</h1>
+    <label for="">Marca</label>
+    <input type="text" placeholder="Honda">
+    <br>
+    <br>
+    <label for="">Modelo</label>
+    <input type="text" placeholder="CBR650">
+    <br>
+    <br>
+    <label for="">Cilindrada</label>
+    <input type="text" placeholder="650cc">
+    <br>
+    <br>
+    <label for="">Tipo de moto</label>
+    <input type="text" placeholder="Scrumbler">
+    <br>
+    <br>
+    <label for="">Fecha de incripción</label>
+    <input type="text" placeholder="DD/MM/YYYY">
+    <br>
+    <br>
+    <!--hACER VALIDACIÓN PARA QUE SE SELECCIONE SOLAMENTE UNO-->
+    <label for="">tengo más de 1 casco</label>
+    <input type="checkbox">
+    <br>
+    <br>
+    <label for="">Tengo guantes</label>
+    <input type="checkbox">
+    <br>
+    <br>
+    <label for="">Tengo chaqueta</label>
+    <input type="checkbox">
+    <br>
+    <br>
+    <!--poner años-->
+    <label for="">Año de modelo</label>
+    <select name="2024" id="FechaMoto">2024</select>
+    <br>
+    <br>
+    <label for="">Cuentános algo breve de tu experiencia en ruta</label>
+    <br>
+    <br>
+    <textarea name="" id="" cols="30" rows="5"></textarea>
+
+    <table>
+        <tr>
+            <td id="Marca">Marca</td>
+            <td id="Modelo">Modelo</td>
+            <td id="Cilindrada">Cilindrada</td>
+            <td id="TipoMoto">Tipo de moto</td>
+            <td id="FechaMoto">Año de incripción</td>
+            <td><button id="btnUPD">Actualizar</button></td>
+            <td><button id="btnDEL">Eliminar</button></td>
+        </tr>
+    </table>
+
+    <h1>Actualizar</h1>
+    <input type="text" id="UPDMarca" placeholder="Marca">
+    <br>
+    <input type="text" id="UPDModelo" placeholder="Modelo">
+    <br>
+    <input type="text" id="UPDCilindrada" placeholder="Cilindrada">
+    <br>
+    <input type="text" id="UPDTipoMoto" placeholder="Tipo de moto">
+    <br>
+    <input type="text" id="UPDFechaMoto" placeholder="Año de incripción">
+    <br>
+    <button>Actualizar</button>
+
+    
+
+</body>
+</html>
